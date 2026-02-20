@@ -1,5 +1,5 @@
-num1 = input("Zadaj prve cislo: ")
-num2 = input("Zadaj druhe cislo: ")
+num1 = input("Set first number: ")
+num2 = input("Set second number: ")
 
 num1 = int(num1)
 num2 = int(num2)
@@ -9,7 +9,7 @@ product_result = num1 * num2
 delenie_result = num1 / num2
 minus_result = num1 - num2
 
-print("Sucet je: ", sum_result)
-print("Sucin je: ", product_result)
-print ("Delenie je: ", delenie_result)
-print ("Rozdiel je: ", minus_result)
+print("Sum: ", sum_result)
+print("Product: ", product_result)
+print ("Division:", delenie_result)
+print ("Difference je: ", minus_result)

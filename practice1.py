@@ -1,10 +1,10 @@
-name = input("Zadaj svoje meno: ")
-year_of_birth = input("Zadaj rok narodenia: ")
+name = input("Set your name: ")
+year_of_birth = input("Year of birth: ")
 
 year_of_birth = int(year_of_birth)
 
 current_year = 2025
 age = current_year - year_of_birth
 
-print("Ahoj", name)
-print("Mas", age, "rokov")
+print("Hello", name)
+print("You are", age, "years old")
